@@ -1,0 +1,39 @@
+{%- comment -%}
+  Compact trust block for directly under the Add to cart button.
+  Usage (product page > Add block > Custom liquid):
+    {% render 'iconfloat-buy-trust' %}
+  Edit the three promise lines to match your real policies before publishing.
+{%- endcomment -%}
+<div class="if-buy-trust">
+  <ul class="if-buy-trust__list">
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="7" cy="17.5" r="1.7" fill="currentColor"/><circle cx="17" cy="17.5" r="1.7" fill="currentColor"/></svg>
+      <span><strong>Free shipping</strong> with tracking on every order</span>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><strong>30-day returns</strong>, no questions asked</span>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      <span><strong>Secure checkout</strong> powered by Shopify</span>
+    </li>
+  </ul>
+
+  {%- if shop.enabled_payment_types.size > 0 -%}
+    <ul class="if-buy-trust__pay" aria-label="Accepted payment methods">
+      {%- for type in shop.enabled_payment_types -%}
+        <li>{{ type | payment_type_svg_tag: class: 'if-pay-icon' }}</li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+</div>
+
+<style>
+  .if-buy-trust { margin-top: 1.6rem; border: 1px solid #e7e3ee; border-radius: 14px; padding: 1.4rem 1.6rem; background: #faf8ff; }
+  .if-buy-trust__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }
+  .if-buy-trust__list li { display: flex; align-items: center; gap: 1.2rem; font-size: 1.4rem; line-height: 1.4; color: #2a2533; }
+  .if-buy-trust__list svg { width: 2.2rem; height: 2.2rem; flex: none; color: #7a2bf0; }
+  .if-buy-trust__pay { list-style: none; margin: 1.4rem 0 0; padding: 1.2rem 0 0; border-top: 1px solid #e7e3ee; display: flex; flex-wrap: wrap; gap: .6rem; }
+  .if-buy-trust__pay .if-pay-icon { width: 3.8rem; height: 2.4rem; display: block; }
+</style>
