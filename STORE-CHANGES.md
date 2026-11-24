@@ -24,3 +24,17 @@ Preview: https://shopmisttrack.com/products/misttrack-dancer-mist-diffuser?previ
 - Disabled "50% OFF LAUNCH SALE" announcement reworded so it can't go live with a false claim.
 
 Every claim above matches the store's published shipping and refund policies.
+
+# AfroDry store: Black Friday countdown (24 Nov 2026)
+
+Theme: **AfroDry** (live, `gid://shopify/OnlineStoreTheme/187851309108`). Saved, waiting to be published.
+
+- The Black Friday bar above the header now shows an "EARLY BLACK FRIDAY SALE" headline, a live
+  hours / mins / secs countdown, and a gold "Shop now" button.
+- The countdown runs to **one fixed end time for every visitor**: 25 Nov 2026, 7:30pm UK time
+  (`2026-11-25T19:30:00Z`). Reloading does not reset it. When it reaches zero the bar disappears.
+- The end time is a theme setting: Customize → Theme settings → Black Friday → "Black Friday sale ends at".
+- No % discount is advertised in the bar. "Limited time only" was dropped from the UK message
+  because the timer now shows the real deadline.
+- A countdown that restarts for each visitor was deliberately not built: it is a fake deadline,
+  which UK consumer law (DMCC Act 2024) prohibits.
