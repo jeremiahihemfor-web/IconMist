@@ -33,6 +33,7 @@ Theme: **AfroDry** (live, `gid://shopify/OnlineStoreTheme/187851309108`). Saved,
   hours / mins / secs countdown, and a gold "Shop now" button.
 - The countdown runs to **one fixed end time for every visitor**: 25 Nov 2026, 7:30pm UK time
   (`2026-11-25T19:30:00Z`). Reloading does not reset it. When it reaches zero the bar disappears.
+- 26 Nov: sale extended. New end time is 27 Nov 2026, 8:35am UK time (`2026-11-27T08:35:00Z`).
 - The end time is a theme setting: Customize → Theme settings → Black Friday → "Black Friday sale ends at".
 - No % discount is advertised in the bar. "Limited time only" was dropped from the UK message
   because the timer now shows the real deadline.
