@@ -45,3 +45,4 @@ Theme: **AfroDry** (live, `gid://shopify/OnlineStoreTheme/187851309108`). Saved,
 - 27 Nov (evening): merchant chose a Black Friday Weekend sale for the US audience. "Final day"
   wording removed; bar now reads "Black Friday Weekend · Ends Sunday midnight ET" (end text shown
   on desktop only). Countdown ends Mon 30 Nov 2026, 00:00 US Eastern (`2026-11-30T05:00:00Z`).
+- Countdown shows days/hours/minutes while a day or more remains, then hours/minutes/seconds under 24 hours.
