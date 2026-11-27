@@ -42,3 +42,6 @@ Theme: **AfroDry** (live, `gid://shopify/OnlineStoreTheme/187851309108`). Saved,
 - 27 Nov: bar redesigned as a slim, minimal near-black strip (gold timer digits, thin kente line).
   Final extension, labelled "Black Friday · Extended · Final day", ending 27 Nov 2026, 11:59pm UK
   time (`2026-11-27T23:59:00Z`). This is the last deadline: no further extensions.
+- 27 Nov (evening): merchant chose a Black Friday Weekend sale for the US audience. "Final day"
+  wording removed; bar now reads "Black Friday Weekend · Ends Sunday midnight ET" (end text shown
+  on desktop only). Countdown ends Mon 30 Nov 2026, 00:00 US Eastern (`2026-11-30T05:00:00Z`).
