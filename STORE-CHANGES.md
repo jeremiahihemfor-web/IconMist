@@ -39,3 +39,6 @@ Theme: **AfroDry** (live, `gid://shopify/OnlineStoreTheme/187851309108`). Saved,
   because the timer now shows the real deadline.
 - A countdown that restarts for each visitor was deliberately not built: it is a fake deadline,
   which UK consumer law (DMCC Act 2024) prohibits.
+- 27 Nov: bar redesigned as a slim, minimal near-black strip (gold timer digits, thin kente line).
+  Final extension, labelled "Black Friday · Extended · Final day", ending 27 Nov 2026, 11:59pm UK
+  time (`2026-11-27T23:59:00Z`). This is the last deadline: no further extensions.
